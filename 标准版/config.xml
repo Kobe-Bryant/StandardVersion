@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<app>
+	<tab>
+		<tabItem name="product" status="1" lable="懒人"/>
+		<tabItem name="service" status="1" lable="服务"/>
+		<tabItem name="community" status="1" lable="社区"/>
+		<tabItem name="hotspot" status="1" lable="热点"/>
+		<tabItem name="more" status="1" lable="更多"/>
+	</tab>
+	
+	<product>
+		<module name="beauty" status="1" lable="客栈"/>
+		<module name="video" status="1"  lable="视频"/>
+		<module name="wallpaper" status="1"  lable="壁纸"/>
+		<module name="solid" status="0" lable="立体"/>
+	</product>
+	
+	<solidList>
+		<solid picName="1" picType=".png" picCount="36"/>
+	<solidList/>
+	
+	<videoList>
+		<video isLocal="1" path="" pic="p1.png" status="1" value="v1" videotype="1" desc="束河的阳光"/>
+		<video isLocal="1" path="" pic="p2.png" status="0" value="v2" videotype="0" desc="慈善是一种生活方式"/>
+	</videoList>
+	
+	
+	<hot>
+		<hotTab name="recommend" status="1" value="懒人热点"/>
+		<hotTab name="discount" status="1" value="懒人生活"/>
+		<hotTab name="trends" status="1" value="懒人旅途"/>
+	</hot>
+	
+	<urls>
+		<url name="accessLink" value="http://app.yunlai.cn:8080/APPInterfaceServer"/>
+        <!--<url name="accessLink" value="http://202.104.149.214:8080/APPInterfaceServer"/>-->
+		<url name="yySearch" value="http://yy.3g.cn"/>
+		<url name="regLink" value="http://lrbl.3g.yunlai.cn/user/register"/>
+		<url name="feedback" value="http://lrbl.3g.yunlai.cn/feedback"/>
+		<url name="shopLink" value="http://lrbl.3g.yunlai.cn"/>
+		<url name="sinaUrl" value="http://v.t.sina.com.cn/share/share.php?title=%@"/>
+		<url name="tencentUrl" value="http://v.t.qq.com/share/share.php?title=%@"/>
+	</urls>
+	
+	<shopInfos>
+		<infoItem name="siteId" value="101"/>
+		<infoItem name="shopId" value="155" shopName="our"/>
+	</shopInfos>
+	
+	<strings>
+		<string name="share" value="中国最美的地方为懒人们住的最舒适的客栈，#懒人部落#客栈给你一个APP，认识束河，心所向往，懒得走了，就在这吧！ "/>
+		<string name="invite" value="推荐一个不错的客栈，在中国最美的地方给懒人们住的最舒适的客栈，懒人部落移动APP应用下载链接： "/>
+		<string name="emailSubject" value="邮件主题"/>
+		<string name="emailContent" value="邮件正文"/>
+	</strings>
+	<showNavBg value="1">
+		<color name="red" value="0.69"/>
+		<color name="green" value="0.30"/>
+		<color name="blue" value="0.00"/>
+		<color name="font_red" value="0"/>
+		<color name="font_green" value="0"/>
+		<color name="font_blue" value="0"/>
+	</showNavBg>
+	<weiboApp>
+		<weiboType name="sina"  appKey="198584703" appSecret="5e489534493f4bbc27e0da3c92bee0f3" redirectUrl="http://our.3g.yunlai.cn"/>
+		<weiboType name="tencent"  appKey="801106679" appSecret="14e3e1188d69231e59f6c98d4a9a5527" redirectUrl=""/>
+	</weiboApp>
+    <moreListName>
+        <listName name="aboutWe" value="关于我们"/>
+        <listName name="goGrade" value="去给xxx评个分"/>
+        <grade name="gradeTitle" value="评分"/>
+        <grade name="gradeContent" value="用10秒钟鼓励我们做的更好。"/>
+    </moreListName>
+    <rgb>
+        <videoLineColor name="lineRed" value="0.9"/>
+        <videoLineColor name="lineGreen" value="0.9"/>
+        <videoLineColor name="lineBlue" value="0.9"/>
+        <videoLineColor name="lineAlpha" value="0.5"/>
+        <moduleLineColor name="moduleRed" value="0.1"/>
+        <moduleLineColor name="moduleGreen" value="0.1"/>
+        <moduleLineColor name="moduleBlue" value="0.1"/>
+        <moduleLineColor name="moduleAlpha" value="0.5"/>
+    </rgb>
+</app>
